@@ -18,6 +18,4 @@ public class ItemPedido {
         return this.quantidade + "x " + this.nomeItem + 
         String.format(" R$%.2f = R$%.2f\n", this.precoUnitario, getSubtotal());
     }
-    
-   
 }
